@@ -1,0 +1,83 @@
+*
+{
+    color: #DFB92E;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+body
+{
+    background-color:#1b1b16 !important;
+}
+
+#BackgroundVideo
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 330px;
+    max-height: 530px; 
+    overflow-y: hidden;
+    object-fit: fill;
+}
+
+.container-fluid
+{
+    max-width:1000px;
+}
+
+h4
+{
+    text-decoration: underline;
+}
+
+.img-fluid{
+    border: 5px solid #33b3ff;
+    border-radius: 10px;
+}
+
+#steam-icon-link
+{
+    color: white;
+    cursor: pointer;
+}
+
+#android-icon-link
+{
+    color: #3DDC84;
+    cursor: pointer;
+}
+
+.fa {
+    color: white;
+  }
+
+.enlarge-icon{
+    font-size: 48px !important;
+  }
+
+.logo.img-fluid{
+    border: none;
+}
+
+
+#bottom-border{
+    border-bottom: 2px solid #94B068;
+    padding-bottom: 3rem !important;
+}
+
+@media(min-width: 768px){
+    #middle-border{
+        border-left: 2px solid #94B068;
+    }
+    
+}
+
+.platform-image.container-fluid{
+    max-width: 400px !important;
+}
